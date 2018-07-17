@@ -3,17 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-tap-event-plugin": "^2.0.1"
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-react": "^7.10.0",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-tap-event-plugin": "^2.0.1",
+    "react-test-renderer": "^16.4.1"
   },
   "devDependencies": {
+    "flow-bin": "^0.76.0",
     "react-scripts": "0.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "coverage": "react-scripts test --env=jsdom --coverage",
+    "eject": "react-scripts eject",
+    "flow": "flow"
   }
 }

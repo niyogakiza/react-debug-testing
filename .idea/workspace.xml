@@ -1,9 +1,413 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c5fda26d-4804-4e2c-ad06-2459998efce9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/listings/Grid.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/loose-envify" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/loose-envify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5225125a0c9507550342f1505f78d20af39f5c17.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6bd36b6337e4aa0191edc693af62ae8984289f8a.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c845c54cfda59a0af3aedb09785d0df8bf9d1635.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fc75e81785d7a27dfb1766203429c32d568d5d2b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/display-name.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/display-name.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/forbid-component-props.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/forbid-component-props.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/forbid-prop-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/forbid-prop-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-boolean-value.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-boolean-value.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-closing-bracket-location.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-closing-bracket-location.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-curly-spacing.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-curly-spacing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-equals-spacing.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-equals-spacing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-filename-extension.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-filename-extension.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-first-prop-new-line.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-first-prop-new-line.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-handler-names.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-handler-names.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-indent-props.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-indent-props.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-indent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-indent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-key.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-key.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-max-props-per-line.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-max-props-per-line.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-no-bind.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-no-bind.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-no-comment-textnodes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-no-comment-textnodes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-no-duplicate-props.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-no-duplicate-props.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-no-literals.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-no-literals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-no-target-blank.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-no-target-blank.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-no-undef.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-no-undef.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-pascal-case.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-pascal-case.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-sort-props.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-sort-props.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-space-before-closing.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-space-before-closing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-uses-react.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-uses-react.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-uses-vars.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-uses-vars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-wrap-multilines.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-wrap-multilines.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-children-prop.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-children-prop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-comment-textnodes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-danger-with-children.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-danger-with-children.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-danger.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-danger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-deprecated.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-deprecated.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-did-mount-set-state.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-did-mount-set-state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-did-update-set-state.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-did-update-set-state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-direct-mutation-state.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-direct-mutation-state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-find-dom-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-find-dom-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-is-mounted.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-is-mounted.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-multi-comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-multi-comp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-render-return-value.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-render-return-value.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-set-state.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-set-state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-string-refs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-string-refs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-unescaped-entities.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-unescaped-entities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-unknown-property.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-unknown-property.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-unused-prop-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-unused-prop-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/prefer-es6-class.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/prefer-es6-class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/prefer-stateless-function.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/prefer-stateless-function.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/prop-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/prop-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/react-in-jsx-scope.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/react-in-jsx-scope.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/require-extension.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/require-optimization.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/require-optimization.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/require-render-return.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/require-render-return.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/self-closing-comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/self-closing-comp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/sort-comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/sort-comp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/sort-prop-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/sort-prop-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/style-prop-object.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/style-prop-object.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/wrap-multilines.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/util/Components.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/util/Components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/util/pragma.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/util/pragma.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/util/variable.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/util/variable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/util/version.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/util/version.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/node_modules/.bin/eslint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/Release/fse.node" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fsevents/build/Release/fse.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/binding.Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fsevents/build/binding.Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/config.gypi" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fsevents/build/config.gypi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/lib/binding/Release/node-v57-darwin-x64/fse.node" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fsevents/lib/binding/Release/node-v57-darwin-x64/fse.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/function-bind/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/.jscs.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/function-bind/.jscs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/function-bind/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/function-bind/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/implementation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/function-bind/implementation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/function-bind/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/function-bind/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/function-bind/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prop-types/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/PATENTS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prop-types/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/checkPropTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prop-types/checkPropTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/factory.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prop-types/factory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/factoryWithThrowingShims.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prop-types/factoryWithThrowingShims.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/factoryWithTypeCheckers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prop-types/factoryWithTypeCheckers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prop-types/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/lib/ReactPropTypesSecret.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prop-types/lib/ReactPropTypesSecret.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prop-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/prop-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prop-types/prop-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/prop-types.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prop-types/prop-types.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/PATENTS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom-server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom-server.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom-server.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ARIADOMPropertyConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ARIADOMPropertyConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/AutoFocusUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/AutoFocusUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/BeforeInputEventPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/BeforeInputEventPlugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/CSSProperty.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/CSSProperty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/CSSPropertyOperations.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/CSSPropertyOperations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/CallbackQueue.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/CallbackQueue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ChangeEventPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ChangeEventPlugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMChildrenOperations.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMChildrenOperations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMLazyTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMLazyTree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMNamespaces.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMNamespaces.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMProperty.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMProperty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMPropertyOperations.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMPropertyOperations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/Danger.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/Danger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/DefaultEventPluginOrder.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/DefaultEventPluginOrder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/EnterLeaveEventPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/EnterLeaveEventPlugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/EventConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/EventConstants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/EventPluginHub.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/EventPluginHub.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/EventPluginRegistry.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/EventPluginRegistry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/EventPluginUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/EventPluginUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/EventPropagators.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/EventPropagators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/FallbackCompositionState.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/FallbackCompositionState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/HTMLDOMPropertyConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/HTMLDOMPropertyConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/KeyEscapeUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/KeyEscapeUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/LinkedValueUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/LinkedValueUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/PluginModuleType.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/PluginModuleType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/PooledClass.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/PooledClass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactBrowserEventEmitter.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactBrowserEventEmitter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactChildFiber.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactChildFiber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactChildReconciler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactChildReconciler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactComponentBrowserEnvironment.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactComponentBrowserEnvironment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactComponentEnvironment.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactComponentEnvironment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactComponentTreeTestUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactComponentTreeTestUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactCompositeComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactCompositeComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactCoroutine.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactCoroutine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOM.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMComponentFlags.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMComponentFlags.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMComponentTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMComponentTree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMContainerInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMContainerInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMEmptyComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMEmptyComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMFeatureFlags.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMFeatureFlags.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMFiber.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMFiber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMIDOperations.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMIDOperations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMInvalidARIAHook.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMInvalidARIAHook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMNullInputValuePropHook.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMNullInputValuePropHook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMOption.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMOption.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMSelect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMSelection.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMSelection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMServer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMServer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMServerUMDEntry.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMServerUMDEntry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMTextComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMTextComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMTextarea.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMTextarea.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMTreeTraversal.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMTreeTraversal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMUMDEntry.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMUMDEntry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMUnknownPropertyHook.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMUnknownPropertyHook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDebugTool.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDebugTool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDefaultBatchingStrategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDefaultBatchingStrategy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDefaultInjection.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDefaultInjection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactElementSymbol.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactElementSymbol.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactEmptyComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactEmptyComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactErrorUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactErrorUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactEventEmitterMixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactEventEmitterMixin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactEventListener.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactEventListener.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFeatureFlags.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFeatureFlags.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiber.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberBeginWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberBeginWork.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberCommitWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberCommitWork.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberCompleteWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberCompleteWork.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberReconciler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberReconciler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberRoot.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberRoot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberScheduler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberScheduler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberUpdateQueue.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberUpdateQueue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactHostComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactHostComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactHostOperationHistoryHook.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactHostOperationHistoryHook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInjection.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInjection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInputSelection.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInputSelection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInstanceMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInstanceMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInstanceType.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInstanceType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInstrumentation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInstrumentation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInvalidSetStateWarningHook.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInvalidSetStateWarningHook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactMarkupChecksum.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactMarkupChecksum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactMount.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactMount.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactMultiChild.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactMultiChild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactMultiChildUpdateTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactMultiChildUpdateTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactNodeTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactNodeTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactOwner.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactOwner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactPerf.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactPerf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactPriorityLevel.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactPriorityLevel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactPropTypeLocationNames.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactPropTypeLocationNames.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactPropTypeLocations.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactPropTypeLocations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactPropTypesSecret.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactPropTypesSecret.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactReconcileTransaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactReconcileTransaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactReconciler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactReconciler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactRef.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactRef.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactReifiedYield.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactReifiedYield.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactServerBatchingStrategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactServerBatchingStrategy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactServerRendering.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactServerRendering.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactServerRenderingTransaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactServerRenderingTransaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactServerUpdateQueue.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactServerUpdateQueue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactShallowRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactShallowRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactSimpleEmptyComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactSimpleEmptyComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactSyntheticEventType.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactSyntheticEventType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactTestReconcileTransaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactTestReconcileTransaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactTestUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactTestUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactTypeOfWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactTypeOfWork.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactUpdateQueue.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactUpdateQueue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactUpdates.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactUpdates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactVersion.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactVersion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ResponderEventPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ResponderEventPlugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ResponderSyntheticEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ResponderSyntheticEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ResponderTouchHistoryStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ResponderTouchHistoryStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SVGDOMPropertyConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/SVGDOMPropertyConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SelectEventPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/SelectEventPlugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SimpleEventPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/SimpleEventPlugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticAnimationEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticAnimationEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticClipboardEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticClipboardEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticCompositionEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticCompositionEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticDragEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticDragEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticFocusEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticFocusEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticInputEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticInputEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticKeyboardEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticKeyboardEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticMouseEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticMouseEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticTouchEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticTouchEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticTransitionEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticTransitionEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticUIEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticUIEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticWheelEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticWheelEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/TapEventPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/TapEventPlugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/Transaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/Transaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ViewportMetrics.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ViewportMetrics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/accumulate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/accumulate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/accumulateInto.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/accumulateInto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/adler32.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/adler32.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/canDefineProperty.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/canDefineProperty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/checkReactTypeSpec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/checkReactTypeSpec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/createMicrosoftUnsafeLocalFunction.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/createMicrosoftUnsafeLocalFunction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/dangerousStyleValue.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/dangerousStyleValue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/deprecated.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/deprecated.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/escapeTextContentForBrowser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/escapeTextContentForBrowser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/findDOMNode.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/findDOMNode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/flattenChildren.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/flattenChildren.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/forEachAccumulated.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/forEachAccumulated.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getEventCharCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/getEventCharCode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getEventKey.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/getEventKey.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getEventModifierState.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/getEventModifierState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getEventTarget.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/getEventTarget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getHostComponentFromComposite.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/getHostComponentFromComposite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getIteratorFn.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/getIteratorFn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getNodeForCharacterOffset.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/getNodeForCharacterOffset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getTestDocument.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/getTestDocument.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getTextContentAccessor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/getTextContentAccessor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getVendorPrefixedEventName.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/getVendorPrefixedEventName.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/instantiateReactComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/instantiateReactComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/isEventSupported.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/isEventSupported.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/isTextInputElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/isTextInputElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/quoteAttributeValueForBrowser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/quoteAttributeValueForBrowser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/reactComponentExpect.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/reactComponentExpect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/reactProdInvariant.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/reactProdInvariant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/renderSubtreeIntoContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/renderSubtreeIntoContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/setInnerHTML.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/setInnerHTML.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/setTextContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/setTextContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/shouldUpdateReactComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/shouldUpdateReactComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/traverseAllChildren.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/traverseAllChildren.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/validateDOMNesting.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/validateDOMNesting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/PATENTS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/dist/react-with-addons.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/dist/react-with-addons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/dist/react-with-addons.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/dist/react-with-addons.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/dist/react.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/dist/react.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/dist/react.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/dist/react.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/KeyEscapeUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/KeyEscapeUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/LinkedStateMixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/LinkedStateMixin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/PooledClass.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/PooledClass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/React.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/React.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactAddonsDOMDependencies.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactAddonsDOMDependencies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactAddonsDOMDependenciesUMDShim.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactAddonsDOMDependenciesUMDShim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactCSSTransitionGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactCSSTransitionGroup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactCSSTransitionGroupChild.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactCSSTransitionGroupChild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactChildren.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactChildren.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactClass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentTreeDevtool.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentTreeDevtool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentTreeHook.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentTreeHook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentTreeHookUMDShim.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentTreeHookUMDShim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentWithPureRenderMixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentWithPureRenderMixin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactCurrentOwner.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactCurrentOwner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactCurrentOwnerUMDShim.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactCurrentOwnerUMDShim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactDOMFactories.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactDOMFactories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactElementSymbol.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactElementSymbol.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactElementType.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactElementType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactElementValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactElementValidator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactFragment.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactFragment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactNoopUpdateQueue.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactNoopUpdateQueue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypeLocationNames.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypeLocationNames.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypeLocations.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypeLocations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypesSecret.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypesSecret.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactPureComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactStateSetters.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactStateSetters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactTransitionChildMapping.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactTransitionChildMapping.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactTransitionEvents.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactTransitionEvents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactTransitionGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactTransitionGroup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactUMDEntry.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactUMDEntry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactUMDShim.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactUMDShim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactVersion.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactVersion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactWithAddons.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactWithAddons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactWithAddonsUMDEntry.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactWithAddonsUMDEntry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/canDefineProperty.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/canDefineProperty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/checkReactTypeSpec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/checkReactTypeSpec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/deprecated.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/deprecated.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/flattenChildren.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/flattenChildren.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/getIteratorFn.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/getIteratorFn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/getNextDebugID.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/getNextDebugID.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/getNextDebugIDUMDShim.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/getNextDebugIDUMDShim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/onlyChild.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/onlyChild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/reactProdInvariant.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/reactProdInvariant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/shallowCompare.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/shallowCompare.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/sliceChildren.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/sliceChildren.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/traverseAllChildren.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/traverseAllChildren.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/update.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/lib/update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="FileColors">
     <fileColor scope="Project Files" color="Blue" />
     <fileColor scope="Project Files" color="Orange" />
     <fileColor scope="Project Files" color="Rose" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="App.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/App.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/components/App.jsx" />
+        <option value="$PROJECT_DIR$/.eslintrc.json" />
+        <option value="$PROJECT_DIR$/src/components/listings/Grid.test.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="128" />
@@ -33,26 +437,235 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Resources" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resources" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resources" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resources" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resources" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="listings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resources" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.prettier" value="project" />
-    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="/usr/local/lib/node_modules/eslint" />
     <property name="node.js.selected.package.prettier" value="" />
+    <property name="node.js.selected.package.standard" value="/usr/local/lib/node_modules/eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.30920246" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5fda26d-4804-4e2c-ad06-2459998efce9" name="Default" comment="" />
+      <created>1531822626164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531822626164</updated>
+      <workItem from="1531822627472" duration="1895000" />
+      <workItem from="1531824561116" duration="4332000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6227000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="128" y="35" width="1067" height="709" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SvgViewer" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37806875" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.37181664" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497561" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="JSON Utils" order="3" />
+      <window_info anchor="right" id="Copy/Paste" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CSS-X-Fire" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/components/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="e#9#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4389" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="e#9#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/listings/Single.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/listings/Grid.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/listings/Grid.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/courses.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
